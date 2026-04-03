@@ -1,0 +1,5 @@
+{
+  "name": "Única Farma, Lda.",
+  "description": "Distribuição de Medicamentos com Rapidez e Confiança em Luanda, Angola. Atendimento 24h para clínicas, farmácias e clientes.",
+  "requestFramePermissions": ["geolocation"]
+}
