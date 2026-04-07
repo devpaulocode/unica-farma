@@ -75,12 +75,12 @@ export default function Contact() {
                   href="https://wa.me/244933777333" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-brand-dark transition-all w-full justify-center sm:w-auto shadow-lg shadow-[#25D366]/20"
+                  className="inline-flex items-center gap-3 bg-white text-[#25D366] px-8 py-4 rounded-full font-bold hover:bg-brand-emerald hover:text-white transition-all w-full justify-center sm:w-auto shadow-lg shadow-black/10 border-2 border-[#25D366]/20"
                 >
                   <img 
                     src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
                     alt="" 
-                    className="w-5 h-5 brightness-0 invert"
+                    className="w-6 h-6"
                     referrerPolicy="no-referrer"
                   />
                   Iniciar Conversa

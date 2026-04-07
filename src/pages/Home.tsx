@@ -42,7 +42,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center pt-20">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/95 to-brand-emerald/80 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#006837]/95 via-[#00A651]/90 to-[#00A651]/80 z-10" />
           <img 
             src="https://images.unsplash.com/photo-1587854692152-cbe660dbbb88?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
             alt="Pharmacy background" 
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
-              Distribuição de Medicamentos com <span className="text-brand-emerald">Rapidez</span> e Confiança
+              Distribuição de Medicamentos com <span className="text-[#6bffae]">Rapidez</span> e Confiança
             </h1>
             
             <p className="text-lg sm:text-xl md:text-2xl text-white/80 mb-10 leading-relaxed max-w-2xl">
@@ -78,12 +78,12 @@ export default function Home() {
                 href="https://wa.me/244933777333" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#25D366] text-white px-8 py-4 rounded-full font-bold text-base sm:text-lg flex items-center justify-center gap-3 hover:bg-white hover:text-brand-dark transition-all shadow-xl shadow-[#25D366]/30 group"
+                className="bg-white text-brand-dark px-8 py-4 rounded-full font-bold text-base sm:text-lg flex items-center justify-center gap-3 hover:bg-brand-emerald hover:text-white transition-all shadow-xl shadow-black/10 group border-2 border-[#25D366]/20"
               >
                 <img 
                   src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
                   alt="" 
-                  className="w-6 h-6 brightness-0 invert"
+                  className="w-7 h-7"
                   referrerPolicy="no-referrer"
                 />
                 Falar no WhatsApp
@@ -230,12 +230,12 @@ export default function Home() {
             href="https://wa.me/244933777333" 
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-4 bg-[#25D366] text-white px-10 py-5 rounded-full font-bold text-xl hover:bg-white hover:text-brand-dark transition-all shadow-2xl animate-pulse-soft border-4 border-white/20"
+            className="inline-flex items-center gap-4 bg-white text-[#25D366] px-10 py-5 rounded-full font-bold text-xl hover:bg-brand-dark hover:text-white transition-all shadow-2xl animate-pulse-soft border-4 border-white/20"
           >
             <img 
               src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
               alt="" 
-              className="w-7 h-7 brightness-0 invert"
+              className="w-8 h-8"
               referrerPolicy="no-referrer"
             />
             Falar no WhatsApp Agora
